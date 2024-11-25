@@ -1,0 +1,45 @@
+.header {
+  position: sticky;
+  top: 0;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+}
+
+.menu {
+  color: grey;
+}
+.shop-title {
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    &:hover {
+      color: grey;
+    }
+  }
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+  color: whitesmoke;
+  &:hover {
+    color: grey;
+  }
+}
+
+.basket-icon {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.basket-number {
+  padding-left: 5px;
+  text-decoration: none;
+  color: inherit;
+}

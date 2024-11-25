@@ -1,0 +1,15 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search {
+  margin-top: 5px;
+  padding: 15px;
+  width: 50%;
+}
+
+.search:active {
+}

@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-wrapper {
+  padding: 25px;
+}
+
+.basket-tot {
+  padding: 25px;
+  margin-left: auto;
+}
+
+.amount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.quant {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.plus,
+.minus {
+  height: 40px;
+  width: 40px;
+  font-size: x-large;
+  color: whitesmoke;
+  background-color: black;
+  border: 1px;
+  border-radius: 4px;
+}
